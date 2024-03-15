@@ -10,8 +10,12 @@ header {
 
     
 }
+<<<<<<< HEAD
 body { background-color: #090303;
 /*background-image: url('Imagens/essefundo.jpg');*/
+=======
+body { background-image: url('Imagens/essefundo.jpg');
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
 margin: 0;
 padding: 0;
 color: rgba(252, 252, 252, 0.778);
@@ -54,19 +58,30 @@ nav ul li a {
 
 
 .destaque:hover {
+<<<<<<< HEAD
     color: rgb(247, 3, 3); /* Cor que deseja quando o mouse passa sobre a palavra */
+=======
+    color: rgb(255, 255, 255); /* Cor que deseja quando o mouse passa sobre a palavra */
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
     cursor: pointer; /* Opcional: Altera o cursor para indicar interatividade */
 }
 
 
 .video {
     position: absolute;
+<<<<<<< HEAD
     top: 140px;
+=======
+    top: 97px;
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
     width: 100%;
     right: 0px;
     height: 100%;
     padding: 0px;
     
+<<<<<<< HEAD
+    }
+=======
     }
 
 .videohorario {
@@ -80,6 +95,45 @@ nav ul li a {
 
 /*slide*/
 
+    .container {
+    display: flex;
+
+    }
+  
+    .slideshow {
+        position: absolute;
+        width: 220px;
+        height: 220px; /* Altura do slide */
+        left:0;
+      }
+      
+      .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 100%;
+        transition: opacity 0.5s ease-in-out;
+        box-shadow: 5px 6px 15px rgb(255, 8, 8);
+        opacity: 0; /* Inicialmente definido para 0 */
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
+
+.videohorario {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    height: 100%;
+    padding: 0px;
+        }
+
+
+<<<<<<< HEAD
+/*slide*/
+=======
+      }
+      
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
+
       
       
 /*slide*/
@@ -89,7 +143,11 @@ nav ul li a {
     left:0;
     width: 220px;
     height: 220px; 
+<<<<<<< HEAD
     background-size: auto;
+=======
+    background-size: cover;
+>>>>>>> 898f2d0f5cd9c1bbc997c210d75208f23daaa110
     border-radius: 100%;
     transition: opacity 0.9s ease-in-out;
     box-shadow: 5px 6px 15px rgb(255, 8, 8);
