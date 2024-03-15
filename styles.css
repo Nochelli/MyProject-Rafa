@@ -6,15 +6,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    
 }
-body { background-image: url('Imagens/fundoo.png');
+body { background-image: url('Imagens/essefundo.jpg');
 margin: 0;
 padding: 0;
-color: rgba(234, 13, 13, 0.729);
-font: normal 15pt sans-serif;
+color: rgba(252, 252, 252, 0.778);
+font-family: 'Segoe UI', sans-serif;
+z-index: 999999999999;
+font-size: large;
+line-height: 1.4;
 
 
 }
+
 
 .logo img {
     width: 450px;
@@ -30,53 +37,56 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 20px;
+    
 }
 
 nav ul li a {
     color: #e31515c0;
     text-decoration: none;
-    font: normal 15pt sans-serif;
-    padding: 15px;  
+    font-family: 'Segoe UI', sans-serif;
+    font-size: large;
+	z-index: 999999999999;
+    padding: 20px
 
 }
 
+
+.destaque:hover {
+    color: rgb(255, 255, 255); /* Cor que deseja quando o mouse passa sobre a palavra */
+    cursor: pointer; /* Opcional: Altera o cursor para indicar interatividade */
+}
+
+
 .video {
     position: absolute;
-    top: 190px;
-    left: 0;
-    height: 127%;
-    box-shadow: 20px 2px 10px rgb(255, 8, 8);
-
+    top: 97px;
+    width: 100%;
+    right: 0px;
+    height: 100%;
+    padding: 0px;
+    
     }
 
-.video2 {
-        position: absolute;
-        top: 190px;
-        right: 502px;
-        height: 127%;
-        box-shadow: 20px 2px 10px rgb(255, 8, 8);
-
-    }
-
-.video3 {
+.videohorario {
     position: absolute;
-    top: 190px;
-    right: 0;
-    height: 127%;
-    box-shadow: 20px 2px 10px rgb(255, 8, 8);
+    width: 100%;
+    right: 0px;
+    height: 100%;
+    padding: 0px;
+        }
 
-    }
 
 /*slide*/
+
     .container {
     display: flex;
-    
+
     }
   
     .slideshow {
         position: absolute;
-        width: 250px;
-        height: 250px; /* Altura do slide */
+        width: 220px;
+        height: 220px; /* Altura do slide */
         left:0;
       }
       
@@ -105,9 +115,7 @@ nav ul li a {
 
       }
       
-      .side-content h2 {
-        margin-top: 0;
-      }
+
       
       
 /*slide*/
@@ -115,14 +123,12 @@ nav ul li a {
 .serviçosvideo {
     position: absolute;
     left:0;
-    width: 100%;
-    height: 50%;
+    width: 220px;
+    height: 220px; 
     background-size: cover;
     border-radius: 100%;
     transition: opacity 0.5s ease-in-out;
     box-shadow: 5px 6px 15px rgb(255, 8, 8);
-    width: 250px;
-    height: 250px; /* Altura do slide */
     margin-top: 300px;
 }
 
@@ -168,15 +174,18 @@ section {
 
 }
 .contato{
-    margin-top: 160px;
-    right: 20px
-
+    margin: none;
+    position: flex;
+    text-align: center;
+    
 
 }
 .contatowhats {
-    position: relative;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    height: 20px;
+    padding: 150px;
+    
+
     }
     .contatowhatss {
     width: 50px; /* Defina o tamanho desejado */
@@ -197,11 +206,6 @@ footer {
     text-align: center;
     padding: 20px;
 }
-.roda {
-    display: right;
-    margin-left: 20px;
 
-
-}
 
 
