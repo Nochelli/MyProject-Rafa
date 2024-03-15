@@ -1,0 +1,206 @@
+header {
+    background-color: #000000;
+    color: #d40202;
+    box-shadow: 5px 5px 10px rgb(255, 8, 8);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body { background-image: url('Imagens/fundoo.png');
+margin: 0;
+padding: 0;
+color: rgba(234, 13, 13, 0.729);
+font: normal 15pt sans-serif;
+
+
+}
+
+.logo img {
+    width: 450px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 500;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #e31515c0;
+    text-decoration: none;
+    font: normal 15pt sans-serif;
+    padding: 15px;  
+
+}
+
+.video {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    height: 127%;
+    box-shadow: 20px 2px 10px rgb(255, 8, 8);
+
+    }
+
+.video2 {
+        position: absolute;
+        top: 190px;
+        right: 502px;
+        height: 127%;
+        box-shadow: 20px 2px 10px rgb(255, 8, 8);
+
+    }
+
+.video3 {
+    position: absolute;
+    top: 190px;
+    right: 0;
+    height: 127%;
+    box-shadow: 20px 2px 10px rgb(255, 8, 8);
+
+    }
+
+/*slide*/
+    .container {
+    display: flex;
+    
+    }
+  
+    .slideshow {
+        position: absolute;
+        width: 250px;
+        height: 250px; /* Altura do slide */
+        left:0;
+
+      }
+      
+      .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 100%;
+        transition: opacity 0.5s ease-in-out;
+        box-shadow: 5px 6px 15px rgb(255, 8, 8);
+        
+      }
+      
+      .slide:not(:first-child) {
+        opacity: 0;
+      }
+
+      .side-content {
+        position: absolute;
+        right: 0;
+        width: 81%; /* Largura do conteúdo ao lado */
+        padding: 0x;
+
+      }
+      
+      .side-content h2 {
+        margin-top: 0;
+      }
+      
+      
+/*slide*/
+
+.serviçosvideo {
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-radius: 100%;
+    transition: opacity 0.5s ease-in-out;
+    box-shadow: 5px 6px 15px rgb(255, 8, 8);
+    width: 250px;
+    height: 250px; /* Altura do slide */
+    margin-top: 300px;
+}
+
+
+.side-content-video {
+    position: absolute;
+    right: 0;
+    width: 81%; /* Largura do conteúdo ao lado */
+    padding: 0x;
+    margin-top: 350px
+
+}
+/*link do whatsapp CSS */
+.whatsapp-link {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000; /* Garante que o ícone esteja acima de outros elementos */
+}
+.whatsapp-icon {
+width: 70px; /* Defina o tamanho desejado */
+height: 70px; /* Defina o tamanho desejado */
+background-color: transparent;  /* Torna o fundo do ícone transparente */
+}
+/*link do whatsapp CSS */
+/*link do instagram CSS */
+.instagram-link {
+position: fixed;
+bottom: 90px;
+right: 20px;
+z-index: 1000; /* Garante que o ícone esteja acima de outros elementos */
+}
+.instagram-icon {
+width: 70px; /* Defina o tamanho desejado */
+height: 70px; /* Defina o tamanho desejado */
+}
+/*link do instagram CSS */
+
+/* Estilos para as seções */
+section {
+    padding: 40px;
+    margin-top: 450px
+
+}
+.contato{
+    margin-top: 160px;
+    right: 20px
+
+
+}
+.contatowhats {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    }
+    .contatowhatss {
+    width: 50px; /* Defina o tamanho desejado */
+    height: 50px; /* Defina o tamanho desejado */
+    background-color: transparent;  /* Torna o fundo do ícone transparente */
+    }
+
+.imagem-destaque img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #000000;
+    color: #ff0000;
+    text-align: center;
+    padding: 20px;
+}
+.roda {
+    display: right;
+    margin-left: 20px;
+
+
+}
+
+
