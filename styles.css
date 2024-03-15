@@ -78,7 +78,7 @@ nav ul li a {
         width: 250px;
         height: 250px; /* Altura do slide */
         left:0;
-
+        overflow: hidden; /* Adicionado overflow hidden para esconder slides fora do contêiner */
       }
       
       .slide {
@@ -89,11 +89,13 @@ nav ul li a {
         border-radius: 100%;
         transition: opacity 0.5s ease-in-out;
         box-shadow: 5px 6px 15px rgb(255, 8, 8);
+        opacity: 0; /* Inicialmente definido para 0 */
+
         
       }
       
-      .slide:not(:first-child) {
-        opacity: 0;
+      .slide.active {
+        opacity: 1; /* Alterado para 1 quando ativo */
       }
 
       .side-content {

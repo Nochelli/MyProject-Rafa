@@ -20,5 +20,5 @@
                   slides[currentSlide].classList.add('active');
                 }
                 
-                
+               
 //slide
