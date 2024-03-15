@@ -6,7 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    line-height: 1.0;
 
     
 }
@@ -190,9 +190,13 @@ section {
 /* Estilos para o rodapé */
 footer {
     background-image: url('Imagens/funduu.jpeg');
-    color: #ff0000;
+    color: #fbfbfb;
     text-align: center;
     padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 999999999999;
+    font-size: large;
+    line-height: 1.4;
 }
 
 
