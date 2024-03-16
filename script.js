@@ -8,17 +8,32 @@
                         });
                     });
                 });
- //slide
-                const slides = document.querySelectorAll('.slide');
 
-                let currentSlide = 0;
-                const slideInterval = setInterval(nextSlide, 3000); // Altere a duração do intervalo conforme necessário
-                
-                function nextSlide() {
-                  slides[currentSlide].classList.remove('active');
-                  currentSlide = (currentSlide + 1) % slides.length;
-                  slides[currentSlide].classList.add('active');
-                }
-                
-               
-//slide
+// carrosel
+document.addEventListener("DOMContentLoaded", function() {
+    const carousel = document.querySelector('.carousel');
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    const totalItems = carouselItems.length;
+    let currentIndex = 0;
+  
+    function moveToSlide(index) {
+      currentIndex = index;
+      const translateValue = -index * 100 + '%';
+      carousel.style.transform = `translateX(${translateValue})`;
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalItems;
+      moveToSlide(currentIndex);
+    }
+  
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+      moveToSlide(currentIndex);
+    }
+  
+  setInterval(nextSlide, 3000);
+  
+  document.querySelector('.prev').addEventListener('click', prevSlide);
+ document.querySelector('.next').addEventListener('click', nextSlide);
+  });

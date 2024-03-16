@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autocenter</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 <!-- link para whataspp HTML -->
     <a href="https://wa.me/+5519992800128" target="_blank" class="whatsapp-link">
         <img src="whatsapp.gif" alt="WhatsApp" class="whatsapp-icon">
@@ -22,7 +23,7 @@
 <body>
     <header>
         <div disablePictureInPicture class="logo">
-            <img src="logo7.png" alt="Logo Autocenter" width="900px" height = "100px">
+            <img src="logo7.png" alt="Logo Autocenter">
         </div>
         <nav>
             <ul>
@@ -33,74 +34,53 @@
         </nav>
     </header>
 
-    <section id="sobre">
-        <h2></h2> 
-    <div>
-        <video disablePictureInPicture src="oleo.mp4" class="serviçosvideo2" 
-            autoplay
-            muted
-            loop> </video> 
-<div class="side-content">
-        <p>Na nossa oficina, oferecemos uma ampla gama de serviços para manter seu veículo seguro e em perfeitas condições de funcionamento.</p>
-        <p>Nossa equipe altamente capacitada e experiente está pronta para cuidar de todas as suas necessidades automotivas, fornecendo também peças de alta qualidade!</p>       
-          </div>
-    
-          <div> 
-            <video disablePictureInPicture src="qualidade video.mp4" class="serviçosvideo" 
-                autoplay
-                muted
-                loop> </video> 
-
-    <div class="side-content-video">
-            <p>Para seu serviço ser conveniente e sem complicações, nós oferecemos o serviço de leva e traz, permitindo que você mantenha sua rotina diária enquanto cuidamos do seu veículo.</p>
-                    </div>
-    
-          <script src="script.js"></script>
-
-
-
-<video disablePictureInPicture src="servico.mp4" class="video" 
+    <div id="servicos">
+    <video disablePictureInPicture src="servico.mp4" class="video" 
     autoplay
     muted
-    loop> </video> 
+    loop> </video> </div>
+
+<section id="sobre">
+        <h2></h2> 
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item"><img src="test1.jpeg" alt="Slide 1"></div>
+                <div class="carousel-item"><img src="test2.jpeg" alt="Slide 2"></div>
+                <div class="carousel-item"><img src="test3.jpeg" alt="Slide 3"></div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </div>
 </section>
 
 <section id="contato">
     <div class="contato">
 
-        <!-- link para whataspp HTML -->
-    <a href="https://wa.me/+5519992800128" target="_blank" class="contatowhats"> 
-        <img src="whatsapp.gif" alt="WhatsApp" class="contatowhatss"></a>
         <p>Estamos localizados no endereço:</p>
         <p>Av. Ampélio Gazzetta, 2572</p>
         <p>Bela Vista, Nova Odessa - SP</p>
         <p>Venha nos visitar</p>
-        <p><strong><span class="destaque">(19) 99280-0128</span></strong></p></span>
-      <!--  span class="destaque">Contato</span><-->
+       <a href="https://wa.me/+5519992800128" target="_blank"><p><strong><span class="destaque2"> (19) 99280-0128 </span></strong></p></a> 
     
-        <video disablePictureInPicture controlsList="nodownload" src="horario.mp4" class="videohorario" 
+        <video disablePictureInPicture src="horario.mp4" class="videohorario" 
         autoplay
         muted
         loop> </video> 
     </section> 
     
- 
-
 <section>
     <div class="imagem-destaque">
         <img src="logo7.png" alt="Carros no Autocenter">
     </div>
-</div>    </section><!-- Box 03 Total -->
-
+</section> 
+  
 <div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.452631714992!2d-47.3000589!3d-22.7856862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8982faeaf0f1f%3A0x690834a3fc3ddad4!2sAv.%20Amp%C3%A9lio%20Gazzetta%2C%202572%20-%20bela%20vista%2C%20Nova%20Odessa%20-%20SP%2C%2013385-019!5e0!3m2!1sen!2sbr!4v1710187095498!5m2!1sen!2sbr" width="100%" height="450" style="border:0" allowfullscreen></iframe>
-
-<div class="btn absolute"></div>
 </div>
 
-    <footer>
+<footer>
         <p>&copy; Ampélio Auto Center - Av. Ampélio Gazzetta, 2572 - Bela Vista, Nova Odessa - SP, 13385-018</p>
-    </footer>
+</footer>
 </body>
 
 </html>
