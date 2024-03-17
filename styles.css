@@ -2,20 +2,17 @@
 
 header {
     background-image: url('Imagens/funduu.jpeg');
-    color: #d40202;
-    box-shadow: 5px 5px 10px rgb(255, 8, 8);
+    color: #ed7835;
+    box-shadow: 5px 5px 10px #ed7835;
     padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     line-height: 1.0;
 
-
-
     
 }
 body { background-color: #070507;
-/*background-image: url('Imagens/essefundo.jpg');*/
 margin: 0;
 padding: 0;
 color: rgba(252, 252, 252, 0.778);
@@ -24,6 +21,8 @@ z-index: 999999999999;
 font-size: large;
 line-height: 1.4;
 text-align: center;
+margin-top: 0;
+
 
 
 }
@@ -58,9 +57,9 @@ nav ul li a {
 
 
 .destaque:hover {
-    color: rgb(247, 3, 3); 
+    color: #ed7835;
     cursor: pointer; 
-    text-shadow: 5px 5px 20px #e60f0f;
+    text-shadow: 5px 5px 20px #ed7835;
 
 }
 .destaque2:hover {
@@ -79,75 +78,23 @@ nav ul li a {
 
 .video {
     position: absolute;
-    top: 140px;
+    top: 120px;
     width: 100%;
     right: 0px;
     height: 100%;
     padding: 0px;
-    
+ 
     }
 
 .videohorario {
-    position: absolute;
+    position: relative;
     width: 100%;
     right: 0px;
     height: 100%;
     padding: 0px;
+    margin: 20px;
         }
 
-
-/*slide*/
-
-      
-      
-/*slide*/
-
-.serviçosvideo {
-    position: absolute;
-    left:0;
-    width: 220px;
-    height: 220px; 
-    background-size: auto;
-    border-radius: 100%;
-    transition: opacity 0.9s ease-in-out;
-    box-shadow: 5px 6px 15px rgb(255, 8, 8);
-    margin-top: 300px;
-    background-color: rgb(226, 98, 0);
-    transition: 3s; 
-}
-
-.serviçosvideo2 {
-    position: absolute;
-    left:0;
-    width: 220px;
-    height: 220px; 
-    background-size: cover;
-    border-radius: 100%;
-    transition: opacity 0.9s ease-in-out;
-    box-shadow: 5px 6px 15px rgb(255, 8, 8);
-    margin-top: 50px;
-    transition: 3s; 
-
-}
-
-.side-content {
-    position: absolute;
-    right: 0;
-    width: 81%; /* Largura do conteúdo ao lado */
-    padding: 0x;
-    margin-top: 90px
-
-}
-
-.side-content-video {
-    position: absolute;
-    right: 0;
-    width: 81%; /* Largura do conteúdo ao lado */
-    padding: 0x;
-    margin-top: 360px
-
-    
-}
 
 /*link do whatsapp CSS */
 .whatsapp-link {
@@ -185,6 +132,7 @@ section {
     margin: none;
     position: flex;
     text-align: center;
+    
     
 
 }
@@ -226,11 +174,15 @@ footer {
     overflow: hidden;
     left: 0px;
     width: 100%;
+    color: #ed7835;
+    box-shadow: 15px 0px 20px #ed7835;
+
   }
   
   .carousel {
     display: flex;
     transition: transform 0.5s ease;
+    
   }
   
   .carousel-item {
@@ -240,7 +192,7 @@ footer {
   
   .carousel-item img {
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
   
   .prev,
@@ -260,8 +212,8 @@ footer {
   
   .prev:hover,
   .next:hover {
-    color: rgb(243, 8, 8);
-    text-shadow: 5px 5px 20px #e60f0f;
+    color: #ed7835;
+    text-shadow: 5px 5px 20px #ed7835;
 
 }
   
@@ -289,8 +241,9 @@ footer {
         line-height: 0.0;
     }
     .video {
-        height: 100%; /*aqui esta a cereja do bolo*/
+        height: 70%; /*aqui esta a cereja do bolo*/
         width: 130%;
+
     }
 
     .videohorario {
@@ -302,6 +255,14 @@ footer {
     max-height: 100px;
     object-fit: cover;
 }
+
+footer {
+  
+    font-size: small;
+    line-height: 1.4;
+
+}
+
 
 
 }
