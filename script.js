@@ -16,27 +16,27 @@ document.addEventListener("DOMContentLoaded", function() {
     const totalItems = carouselItems.length;
     let currentIndex = 0;
     let startX = 0;
-  
+
     function moveToSlide(index) {
         currentIndex = index;
         const translateValue = -index * 100 + '%';
         carousel.style.transform = `translateX(${translateValue})`;
     }
-  
+
     function nextSlide() {
         currentIndex = (currentIndex + 1) % totalItems;
         moveToSlide(currentIndex);
     }
-  
+
     function prevSlide() {
         currentIndex = (currentIndex - 1 + totalItems) % totalItems;
         moveToSlide(currentIndex);
     }
-  
+
     function startTouch(e) {
         startX = e.touches[0].clientX;
     }
-  
+
     function endTouch(e) {
         const endX = e.changedTouches[0].clientX;
         const difference = startX - endX;
@@ -46,11 +46,33 @@ document.addEventListener("DOMContentLoaded", function() {
             prevSlide();
         }
     }
-  
+
     setInterval(nextSlide, 3000);
-  
+
+    function updateImageSource() {
+        const isMobile = window.innerWidth <= 480;
+        const pictureElements = document.querySelectorAll('.carousel-item picture');
+    
+        pictureElements.forEach(function(pictureElement) {
+            const sourceElement = pictureElement.querySelector('source');
+            const imgElement = pictureElement.querySelector('img');
+    
+            if (isMobile && sourceElement.getAttribute('data-mobile-srcset')) {
+                imgElement.srcset = sourceElement.getAttribute('data-mobile-srcset');
+            } else {
+                imgElement.srcset = sourceElement.getAttribute('srcset');
+            }
+        });
+    }
+
+    // Atualizar as imagens na inicialização
+    updateImageSource();
+
+    // Atualizar as imagens sempre que a janela for redimensionada
+    window.addEventListener('resize', updateImageSource);
+
     document.querySelector('.prev').addEventListener('click', prevSlide);
     document.querySelector('.next').addEventListener('click', nextSlide);
     carousel.addEventListener('touchstart', startTouch);
     carousel.addEventListener('touchend', endTouch);
-  });
+});
