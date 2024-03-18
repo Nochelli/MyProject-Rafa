@@ -235,8 +235,8 @@ footer {
 /* Responsive Iphone */
 @media screen and (max-width: 500px){
     .logo img {
-        width: 220px;
-        height: 150px;
+        width: 150px;
+        height: 130px;
     }
     nav ul li a {
         display: flex;
@@ -267,9 +267,15 @@ footer {
 
 }
 .carousel-container{
-height: 50%;
+height: 40%;
+width: 100%;   
 
 }
+
+.carousel-item img {
+    width: 100%;
+    height: 100px;
+  }
 section {
     padding: 40px;
     margin-top: 350px
