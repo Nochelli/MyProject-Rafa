@@ -229,7 +229,7 @@ footer {
 
 
 /* Responsive Iphone */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 500px){
     .logo img {
         width: 220px;
         height: 150px;
@@ -275,17 +275,52 @@ section {
 
 
 /* Responsive Samsung s9 */
-@media screen and (max-width: 360px){
+@media screen and (min-width: 200px){
     .logo img {
         width: 150px;
-        height: 150px;
+        height: 100px;
     }
-    nav ul li a {
+nav ul li a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        line-height: 0.0;
+        line-height: 0.0;    
+        font-size: 15px;
     }
+
+.video {
+    height: 70%; /*aqui esta a cereja do bolo*/
+    width: 130%;
+    height: 55%;
+}
+
+.videohorario {
+    transform: scale(1.0);
+        }
+
+.imagem-destaque img {
+width: 100%;
+max-height: 100px;
+object-fit: cover;
+}
+
+footer {
+
+font-size: small;
+line-height: 1.4;
+
+}
+.carousel-container{
+height:50%;
+
+}
+section {
+padding: 40px;
+margin-top: 350px
+
+}
+
+
 }
 
 
@@ -294,15 +329,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-}
 
 
 
