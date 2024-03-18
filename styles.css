@@ -25,6 +25,7 @@ margin-top: 0;
 
 
 
+
 }
 
 
@@ -125,7 +126,7 @@ height: 70px; /* Defina o tamanho desejado */
 /* Estilos para as seções */
 section {
     padding: 40px;
-    margin-top: 450px
+    margin-top: 500px
 
 }
 .contato{
@@ -242,7 +243,7 @@ footer {
     .video {
         height: 70%; /*aqui esta a cereja do bolo*/
         width: 130%;
-
+        height: 55%;
     }
 
     .videohorario {
@@ -265,10 +266,14 @@ footer {
 height:50%;
 
 }
-
-
+section {
+    padding: 40px;
+    margin-top: 350px
 
 }
+
+
+
 /* Responsive Samsung s9 */
 @media screen and (max-width: 360px){
     .logo img {
@@ -297,7 +302,7 @@ height:50%;
 
 
 
-
+}
 
 
 
