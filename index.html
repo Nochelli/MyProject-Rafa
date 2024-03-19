@@ -32,10 +32,12 @@
         </nav>
     </header>
     <div id="servicos">
-    <video disablePictureInPicture src="servico.mp4" class="video" 
-    autoplay
-    muted
-    loop> </video> </div>
+<video autoplay
+muted playsinline
+disablePictureInPicture  
+loop src="servico.mp4" class="video" > 
+</video> </div>
+
     <section id="sobre">
         <h2></h2> 
         <div class="carousel-container">
@@ -64,19 +66,28 @@
         </div>
     </section>
 
-<section id="contato">
-    <div class="contato">
-
-        <p>Estamos localizados no endereço:</p>
-        <p>Av. Ampélio Gazzetta, 2572</p>
-        <p>Bela Vista, Nova Odessa - SP</p>
-        <p>Venha nos visitar</p>
-       <a href="https://wa.me/+5519992800128" target="_blank"><p><strong><span class="destaque2"> (19) 99280-0128 </span></strong></p></a> </div>
-
-      <video disablePictureInPicture src="horario.mp4" class="videohorario"  media="(max-width: 800px)"
-        autoplay
-        muted
-        loop> </video>
+<section class="hidden" id="contato">
+            <div class="logos">
+        
+                <div class="hidden show">
+                <img class="contact" src="call.gif">
+                <p><a href="https://wa.me/+5519992800128" target="_blank"><strong><span class="destaque2"> (19) 99280-0128 </span></strong></a></p>
+                </div>
+        
+                <div class="hidden show">
+                <img class="contact" src="location.gif">
+                <p><strong>Av. Ampélio Gazzetta, 2572</p>
+                <p>Bela Vista, Nova Odessa - SP</strong></p>
+                </div>
+        
+                <div class="hidden show">
+                <img class="contact" src="time.gif">
+                <p><strong>Segunda - Sexta 08:00 às 18:00</p>
+                <p>Sábado 08:00 às 12:00</p></strong>
+                </div>
+        
+</div></section>
+       
 
     <div class="imagem-destaque">
         <img src="logo7.png" alt="Carros no Autocenter">

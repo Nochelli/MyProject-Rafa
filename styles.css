@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     line-height: 1.0;
-        border-bottom: 2px solid #333; /* Adicione uma borda sólida na parte inferior */
+    border-bottom: 2px solid #333; /* Adicione uma borda sólida na parte inferior */
     padding-bottom: 10px; 
     height: 150px;
 
@@ -90,14 +90,6 @@ nav ul li a {
  
     }
 
-.videohorario {
-    position: relative;
-    width: 100%;
-    right: 0px;
-    height: 100%;
-    padding: 0px;
-    margin: 20px;
-        }
 
 
 /*link do whatsapp CSS */
@@ -231,11 +223,63 @@ footer {
   }
     /* SLIDER */
 
+/* hidden and show*/
+
+    .contato {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        min-height: 100vh;
+
+        }
+        
+        .hidden {
+            opacity: 0;
+            filter: blur(15px);
+            transform: translateX(-100%);
+            transition: all 2s;
+            
+            }
+            
+            .show{ 
+                opacity: 1;
+                filter: blur(0);
+                transform: translateX(0);
+                transition: all 2s;
+        
+            }
+        
+        
+        .contact {
+        height: 200px;
+        background-color: #070507;
+        border-radius: 10px;
+        margin: 80px;
+
+
+        }
+        
+        .logos {
+            display: flex;
+            gap: 100px;
+
+        }
+        
+        .logos:nth-child(1) {
+        transition-delay: 400ms;
+        
+        }
+        
+        .logos:nth-child(3) {
+            transition-delay: 700ms;
+            
+            }
+/* hidden and show*/
 
 /* Responsive Iphone */
 @media screen and (max-width: 600px){
     .logo img {
-        width: 150px;
+        width: 170px;
         height: 130px;
     }
     nav ul li a {
@@ -245,14 +289,10 @@ footer {
         line-height: 0.0;
     }
     .video {
-        height: 70%; /*aqui esta a cereja do bolo*/
+        height: 34%; /*aqui esta a cereja do bolo*/
         width: 130%;
-        height: 55%;
     }
 
-    .videohorario {
-        transform: scale(1.0);
-            }
 
     .imagem-destaque img {
     width: 100%;
@@ -267,21 +307,33 @@ footer {
 
 }
 .carousel-container{
-height: 20%;
+height: 175px;
 width: 100%;   
 
 }
 
 .carousel-item img {
     width: 100%;
-    height: 150px;
+    height: 180px;
     
   }
 section {
     padding: 40px;
-    margin-top: 200px;
+    margin-top: 120px;
 
 }
+
+.logos{
+    flex-wrap: wrap; 
+    font-size: small;
+    gap: 0;
+
+    
+}
+
+.contact {
+    height: 100px;
+    
 
 }
 

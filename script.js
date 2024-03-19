@@ -76,3 +76,20 @@ document.addEventListener("DOMContentLoaded", function() {
     carousel.addEventListener('touchstart', startTouch);
     carousel.addEventListener('touchend', endTouch);
 });
+// carrosel
+
+// script hidden and show
+const myObserver = new IntersectionObserver(  (entries) => {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('show')
+         } else {
+            entry.target.classList.remove('show')
+         }
+        })
+    })
+    
+    const elements = document.querySelectorAll('.hidden')
+    
+    elements.forEach( (element) => myObserver.observe(element))
+    // script hidden and show
