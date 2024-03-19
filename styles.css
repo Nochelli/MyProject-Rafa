@@ -265,7 +265,7 @@ footer {
 
         }
         
-        .logos:nth-child(1) {
+        .logos:nth-child(2) {
         transition-delay: 400ms;
         
         }
@@ -335,6 +335,7 @@ section {
     height: 100px;
     
 
+}
 }
 
 /* Responsive Samsung s9 */
