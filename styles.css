@@ -120,7 +120,7 @@ height: 70px; /* Defina o tamanho desejado */
 
 /* Estilos para as seções */
 section {
-    padding: 40px;
+    padding: 20px;
     margin-top: 500px
 
 }
@@ -173,7 +173,8 @@ footer {
     border-bottom: 2px solid #333; 
     border-top: 2px solid #333; 
     padding-bottom: 10px; 
-    height: 78%;
+    height: 355px;
+    margin-top: 150px;
   }
   
   .carousel {
@@ -189,7 +190,7 @@ footer {
   
   .carousel-item img {
     width: 100%;
-    height: 500px;
+    height: 100%;
   }
   
   .prev,
@@ -231,6 +232,7 @@ footer {
         place-items: center;
         align-items: center;
         min-height: 100vh;
+        
 
         }
         
@@ -256,7 +258,6 @@ footer {
         background-color: #070507;
         border-radius: 10px;
         margin: 80px;
-
 
         }
         
@@ -480,10 +481,6 @@ section {
     }
 
 }
-
-
-
-
 
 
 
