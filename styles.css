@@ -314,6 +314,9 @@ footer {
 .carousel-container{
 height: 390px;
 width: 100%;   
+position: absolute;
+overflow: hidden;
+padding-bottom: 90px; 
 
 
 }
