@@ -86,7 +86,7 @@ nav ul li a {
     width: 100%;
     right: 0px;
     height: 100%;
-    padding: 0px;
+    padding: 9px;
  
     }
 
@@ -279,6 +279,8 @@ footer {
 
 /* Responsive Iphone */
 @media screen and (max-width: 600px){
+
+    
     .logo img {
         width: 170px;
         height: 130px;
