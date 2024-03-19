@@ -79,19 +79,26 @@ document.addEventListener("DOMContentLoaded", function() {
 // carrosel
 
 // script hidden and show
-const myObserver = new IntersectionObserver(  (entries) => {
-    entries.forEach( (entry) => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('show')
-         } else {
-            entry.target.classList.remove('show')
-         }
-        })
-    })
-    
-    const elements = document.querySelectorAll('.hidden')
-    
-    elements.forEach( (element) => myObserver.observe(element))
+if ('IntersectionObserver' in window) {
+    const myObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+
+    // Selecionar os elementos ocultos inicialmente
+    const elements = document.querySelectorAll('.hidden');
+
+    // Observar cada elemento oculto
+    elements.forEach((element) => myObserver.observe(element));
+} else {
+    // Fallback para um comportamento alternativo, se necessário
+    console.log('Seu navegador não suporta IntersectionObserver.');
+}
     // script hidden and show
 
 
