@@ -170,9 +170,10 @@ footer {
     overflow: hidden;
     left: 0px;
     width: 100%;
-    border-bottom: 2px solid #333; /* Adicione uma borda sólida na parte inferior */
+    border-bottom: 2px solid #333; 
+    border-top: 2px solid #333; 
     padding-bottom: 10px; 
-    height: 80%;
+    height: 78%;
   }
   
   .carousel {
@@ -287,6 +288,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         line-height: 0.0;
+        font-size: smaller;
     }
     .video {
         height: 34%; /*aqui esta a cereja do bolo*/
@@ -319,7 +321,7 @@ width: 100%;
   }
 section {
     padding: 40px;
-    margin-top: 120px;
+    margin-top: 130px;
 
 }
 
@@ -330,23 +332,17 @@ section {
     margin: 30px;
     font-size: x-small;
     margin-left: 9px;
+
+
     }
     
     .logos {
         display: flex;
         gap: 10px;
         font-size: xx-small;
-      
-
-
+        text-align: left;
     }
 
-.hidden-show {
-
-
-
-
-}
 
 
 }
