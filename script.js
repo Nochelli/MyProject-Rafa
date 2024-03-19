@@ -93,3 +93,24 @@ const myObserver = new IntersectionObserver(  (entries) => {
     
     elements.forEach( (element) => myObserver.observe(element))
     // script hidden and show
+
+
+
+
+    function updateCarousel() {
+        const isMobile = window.innerWidth <= 480;
+        const images = document.querySelectorAll('.carousel-item img');
+    
+        images.forEach(image => {
+            const src = isMobile ? image.dataset.mobileSrc : image.dataset.src;
+            if (src) {
+                image.src = src;
+            }
+        });
+    }
+    
+    // Chama a função para atualizar o carousel quando a largura da tela é alterada
+    window.addEventListener('resize', updateCarousel);
+    
+    // Chama a função para atualizar o carousel quando a página é carregada
+    window.addEventListener('load', updateCarousel);
