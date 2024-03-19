@@ -278,7 +278,7 @@ footer {
 /* hidden and show*/
 
 /* Responsive Iphone */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
 
     
     .logo img {
@@ -327,13 +327,28 @@ width: 100%;
 .next {
       top: 39%;
 
-    
+
 
   }
-section {
-    padding: 40px;
-    margin-top: 130px;
 
+  .whatsapp-icon {
+    width: 50px; 
+    height: 50px; 
+
+    }
+
+.instagram-icon {
+    width: 50px; 
+    height: 50px; 
+        }
+
+        .instagram-link {
+            bottom: 70px;
+        }
+
+  section {
+    padding: 50px;
+    margin-top: 150px
 
 }
 
@@ -379,7 +394,19 @@ section {
         width: 130%;
         
     }
-
+    .whatsapp-icon {
+        width: 50px; 
+        height: 50px; 
+    
+        }
+    
+    .instagram-icon {
+        width: 50px; 
+        height: 50px; 
+            }
+            .instagram-link {
+                bottom: 70px;
+            }
 
     .imagem-destaque img {
     width: 100%;
