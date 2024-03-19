@@ -328,7 +328,7 @@ overflow: hidden;
 
 .prev,
 .next {
-      top: 39%;
+      top: 50%;
 
 
 
@@ -359,8 +359,7 @@ overflow: hidden;
     height: 50px;
     background-color: #070507;
     border-radius: 0px;
-    margin: 30px;
-    font-size: x-small;
+    margin: 35px;
     margin-left: 9px;
 
 
@@ -368,11 +367,21 @@ overflow: hidden;
     
     .logos {
         display: flex;
-        gap: 10px;
+        gap: 15px;
         font-size: xx-small;
         text-align: left;
         margin-top: 60%;
     }
+    .logos:nth-child(2) {
+        transition-delay: 400ms;
+        
+        }
+        
+        .logos:nth-child(3) {
+            transition-delay: 700ms;
+            
+            }
+            
 }
 
 
@@ -437,7 +446,7 @@ width: 100%;
 
 .prev,
 .next {
-      top: 39%;
+      top: 45%;
 
       
     }
