@@ -430,14 +430,14 @@ top: 89%;
 
     header {
        
-        padding-bottom: 15px; 
-        height: 130px;
+        padding-bottom: 5px; 
+        height: 120px;
         font-size: 15px;
         
     }
     .sobre{
-        font-size: x-small;
-        padding: 7%;
+        font-size: 10px;
+        padding: 2%;
         line-height: 1.6;
 
     }
@@ -456,7 +456,7 @@ top: 89%;
     .video {
         height: 25%; /*aqui esta a cereja do bolo*/
         width: 130%;
-        top: 16%
+      
         
     }
     .whatsapp-icon {
@@ -487,8 +487,9 @@ footer {
 }
 .carousel-container{
 height: 320px;
-width: 100%;   
-top: 78%;
+width: 100%;  
+top: 76% 
+
 
 
 }
@@ -546,3 +547,123 @@ section {
 
 
 /* Responsivel
+
+/* Responsive Samsung s9 */
+@media screen and (max-width: 380px){
+ 
+
+    header {
+       
+        padding-bottom: 5px; 
+        height: 120px;
+        font-size: 15px;
+        
+    }
+    .sobre{
+        font-size: 10px;
+        padding: 2%;
+        line-height: 1.6;
+
+    }
+    
+    .logo img {
+        width: 170px;
+        height: 130px;
+    }
+    nav ul li a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 0.0;
+        font-size: smaller;
+    }
+    .video {
+        height: 25%; /*aqui esta a cereja do bolo*/
+        width: 130%;
+      
+        
+    }
+    .whatsapp-icon {
+        width: 50px; 
+        height: 50px; 
+    
+        }
+    
+    .instagram-icon {
+        width: 50px; 
+        height: 50px; 
+            }
+            .instagram-link {
+                bottom: 70px;
+            }
+
+    .imagem-destaque img {
+    width: 100%;
+    max-height: 140px;
+    object-fit: relative;
+}
+
+footer {
+  
+    font-size: small;
+    line-height: 1.4;
+
+}
+.carousel-container{
+height: 320px;
+width: 100%;  
+top: 66% 
+
+
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.prev,
+.next {
+      top: 30%;
+    }
+
+    .prev {
+        left: 10px; 
+
+      }
+      
+      .next {
+        right: 10px; 
+        margin-left: 10px; 
+      }
+  
+section {
+    padding: 40px;
+    margin-top: 140px;
+
+
+}
+
+.contact {
+    height: 50px;
+    background-color: #070507;
+    border-radius: 0px;
+    margin: 30px;
+    font-size: x-small;
+    margin-left: 9px;
+
+
+    }
+    
+    .logos {
+        display: flex;
+        gap: 10px;
+        font-size: xx-small;
+        text-align: left;
+        margin-top: 60%;
+    }
+
+}
+
+
