@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     line-height: 1.0;
-    border-bottom: 2px solid #333; /* Adicione uma borda sólida na parte inferior */
+    border-bottom: 2px solid #333; 
     padding-bottom: 15px; 
     height: 190px;
 
@@ -115,12 +115,12 @@ text-transform:;
 position: fixed;
 bottom: 20px;
 right: 20px;
-z-index: 1000; /* Garante que o ícone esteja acima de outros elementos */
+z-index: 1000; 
 }
 .whatsapp-icon {
-width: 70px; /* Defina o tamanho desejado */
-height: 70px; /* Defina o tamanho desejado */
-background-color: transparent;  /* Torna o fundo do ícone transparente */
+width: 70px; /
+height: 70px; 
+background-color: transparent;  
 }
 /*link do whatsapp CSS */
 /*link do instagram CSS */
@@ -128,11 +128,11 @@ background-color: transparent;  /* Torna o fundo do ícone transparente */
 position: fixed;
 bottom: 90px;
 right: 20px;
-z-index: 1000; /* Garante que o ícone esteja acima de outros elementos */
+z-index: 1000; 
 }
 .instagram-icon {
-width: 70px; /* Defina o tamanho desejado */
-height: 70px; /* Defina o tamanho desejado */
+width: 70px; 
+height: 70px; 
 }
 /*link do instagram CSS */
 
@@ -158,9 +158,9 @@ section {
 
     }
     .contatowhatss {
-    width: 50px; /* Defina o tamanho desejado */
-    height: 50px; /* Defina o tamanho desejado */
-    background-color: transparent;  /* Torna o fundo do ícone transparente */
+    width: 50px; 
+    height: 50px; 
+    background-color: transparent;  
     }
 
 .imagem-destaque img {
