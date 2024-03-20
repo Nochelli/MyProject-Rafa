@@ -434,7 +434,9 @@ top: 89%;
         
     }
     .sobre{
-font-size: x-small;
+        font-size: x-small;
+        padding: 7%;
+        line-height: 1.6;
 
     }
     
@@ -452,6 +454,7 @@ font-size: x-small;
     .video {
         height: 25%; /*aqui esta a cereja do bolo*/
         width: 130%;
+        top: 16%
         
     }
     .whatsapp-icon {
