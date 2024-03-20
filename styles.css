@@ -21,7 +21,6 @@ margin: 0;
 padding: 0;
 color: rgba(252, 252, 252, 0.778);
 font-family: 'Segoe UI', sans-serif;
-z-index: 999999999999;
 font-size: x-large;
 line-height: 1.4;
 text-align: center;
@@ -404,8 +403,8 @@ top: 680px
     .logos {
         display: flex;
         gap: 15px;
-        font-size: 6px;
-        text-align: left;
+        text-align: center;
+        font-size: 9px;
         margin-top: 60%;
     }
     .logos:nth-child(2) {
