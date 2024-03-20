@@ -121,3 +121,6 @@ if ('IntersectionObserver' in window) {
     
     // Chama a função para atualizar o carousel quando a página é carregada
     window.addEventListener('load', updateCarousel);
+
+
+

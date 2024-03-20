@@ -406,6 +406,7 @@ top: 680px
         text-align: center;
         font-size: 9px;
         margin-top: 60%;
+        letter-spacing: 0.1px;
     }
     .logos:nth-child(2) {
         transition-delay: 400ms;
