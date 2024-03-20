@@ -331,7 +331,7 @@ footer {
     }
     .video {
         height: 35%; /*aqui esta a cereja do bolo*/
-        width: 129%;
+        width: 131%;
         
     }
 
@@ -439,16 +439,15 @@ top: 92%;
         
     }
     .sobre{
-        font-size: 10px;
-        padding: 2%;
-        line-height: 1.6;
-        
+        font-size: x-small;
+        padding: 3%;
+        line-height: 1.4;
+            }
 
-    }
     
     .logo img {
-        width: 170px;
-        height: 130px;
+        width: 150px;
+        height: 110px;
     }
     nav ul li a {
         display: flex;
@@ -459,7 +458,7 @@ top: 92%;
     }
     .video {
         height: 25%; /*aqui esta a cereja do bolo*/
-        width: 130%;
+        width: 131%;
       
         
     }
@@ -492,7 +491,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;  
-top: 85% 
+top: 63% 
 
 
 
