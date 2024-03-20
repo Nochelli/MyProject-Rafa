@@ -25,7 +25,7 @@ font-size: x-large;
 line-height: 1.4;
 text-align: center;
 margin-top: 0;
-
+letter-spacing: 2px;
 
 
 
@@ -55,6 +55,8 @@ nav ul li a {
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
+    letter-spacing: 2px;
+
     font-family: "quicksand", sans-serif;
 
 }
@@ -87,9 +89,25 @@ nav ul li a {
     right: 0px;
     height: 100%;
     padding: 9px;
+    top: 15%
  
     }
 
+.sobre{ 
+background-image: url('Imagens/fixed.jpg');
+background-attachment: fixed;
+background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center; 
+    font-size: 23px;
+line-height: 2.5;
+letter-spacing: 2px;
+text-transform:;
+ font-family:montserrat;
+ text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
 
 
 /*link do whatsapp CSS */
@@ -158,8 +176,10 @@ footer {
     text-align: center;
     padding: 20px;
     font-family: 'Segoe UI', sans-serif;
-    font-size: large;
+    font-size: medium;
     line-height: 1.4;
+    letter-spacing: 2px;
+
 
 }
 
@@ -174,7 +194,7 @@ footer {
     border-top: 2px solid #333; 
     padding-bottom: 10px; 
     height: 355px;
-    margin-top: 50px;
+    top: 168%
   }
   
   .carousel {
@@ -292,6 +312,8 @@ footer {
 
     .sobre{
         font-size: x-small;
+        padding: 13%;
+        line-height: 1.6;
             }
     
     .logo img {
@@ -329,6 +351,7 @@ height: 390px;
 width: 100%;   
 position: absolute;
 overflow: hidden;
+top: 89%;
 
 
 
@@ -372,7 +395,7 @@ overflow: hidden;
     height: 50px;
     background-color: #070507;
     border-radius: 0px;
-    margin: 35px;
+    margin: 30px;
     margin-left: 9px;
 
 
@@ -407,7 +430,7 @@ overflow: hidden;
        
         padding-bottom: 15px; 
         height: 130px;
-    
+        font-size: 15px;
         
     }
     .sobre{
@@ -427,7 +450,7 @@ font-size: x-small;
         font-size: smaller;
     }
     .video {
-        height: 34%; /*aqui esta a cereja do bolo*/
+        height: 25%; /*aqui esta a cereja do bolo*/
         width: 130%;
         
     }
@@ -460,6 +483,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;   
+top: 78%;
 
 
 }
