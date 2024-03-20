@@ -331,7 +331,7 @@ footer {
     }
     .video {
         height: 35%; /*aqui esta a cereja do bolo*/
-        width: 129%;
+        width: 131%;
         
     }
 
@@ -457,8 +457,8 @@ top: 92%;
         font-size: smaller;
     }
     .video {
-        height: 25%; /*aqui esta a cereja do bolo*/
-        width: 129%;
+        height: 20%; /*aqui esta a cereja do bolo*/
+        width: 128%;
       
         
     }
@@ -518,7 +518,7 @@ top: 63%
       }
   
 section {
-    padding: 40px;
+    padding: 30px;
     margin-top: 140px;
 
 
