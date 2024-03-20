@@ -455,8 +455,9 @@ top: 680px
         font-size: smaller;
     }
     .video {
-        height: 30%; /*aqui esta a cereja do bolo*/
+        height: 20%; /*aqui esta a cereja do bolo*/
         width: 128%;
+        right: 0px;
       
         
     }
@@ -489,7 +490,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;  
-top: 63% 
+top: 66% 
 
 
 
