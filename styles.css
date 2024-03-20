@@ -432,9 +432,10 @@ top: 92%;
 
     header {
        
-        padding-bottom: 5px; 
+        padding-bottom: 0px; 
         height: 120px;
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 1.0;
         
     }
     .sobre{
@@ -491,7 +492,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;  
-top: 66% 
+top: 76% 
 
 
 
