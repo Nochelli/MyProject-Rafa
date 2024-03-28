@@ -101,10 +101,10 @@ background-position: center;
     background-size: cover;
     color: #ffffff;
     text-align: center; 
-    font-size: 23px;
-line-height: 2.5;
-letter-spacing: 2px;
- font-family:montserrat;
+    font-size: 40px;
+line-height: 1.5;
+letter-spacing: 3px;
+ font-family: montserrat;
  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 
 }
@@ -195,7 +195,7 @@ footer {
     border-top: 2px solid #333; 
     padding-bottom: 10px; 
     height: 355px;
-    top: 169%
+    top: 163%
   }
   
   .carousel {
@@ -351,7 +351,7 @@ footer {
 .carousel-container{
 height: 450;
 width: 100%;   
-top: 649px
+top: 585px
 
 
 }
@@ -455,7 +455,7 @@ top: 649px
         font-size: smaller;
     }
     .video {
-        height: 30%; /*aqui esta a cereja do bolo*/
+        height: 20%; /*aqui esta a cereja do bolo*/
         width: 128%;
       
         
@@ -489,7 +489,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;  
-top: 63% 
+top: 58% 
 
 
 
