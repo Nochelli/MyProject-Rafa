@@ -95,17 +95,18 @@ nav ul li a {
     }
 
 .sobre{ 
-background-image: url('Imagens/fix2.jpg');
+background-image: url('Imagens/fix.jpeg');
 background-attachment: fixed;
 background-position: center;
     background-size: cover;
     color: #ffffff;
-    text-align: right; 
+    text-align: center; 
     font-size: 25px;
 line-height: 1.5;
 letter-spacing: 3px;
 font-family: 'Segoe UI', sans-serif;
  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+ font-weight: 600
 
 }
 
@@ -314,12 +315,15 @@ footer {
 
     .sobre{
         font-size: 13px;
-        padding: 0%;
-        line-height: 1.6;
-background-image: url('Imagens/fixphone.jpg');
+        padding: 1%;
+        line-height: 1.5;
+background-image: url('Imagens/fix.jpeg');
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+font-weight: 600
+
+
             }
     
     .logo img {
@@ -444,10 +448,12 @@ top: 585px
         font-size: 9px;
         padding: 0%;
         line-height: 1.4;
-        background-image: url('Imagens/fixphone.jpg');
-background-attachment: fixed;
+        background-image: url('Imagens/fix.jpeg');
+        background-attachment: fixed;
 background-position: center;
 background-size: cover;
+font-weight: 700
+
             }
 
     
