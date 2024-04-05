@@ -107,7 +107,6 @@ letter-spacing: 3px;
 font-family: 'Segoe UI', sans-serif;
  text-shadow: 1px 1px 2px rgb(0, 0, 0);
  font-weight: 600;
-
 }
 
 
@@ -317,11 +316,11 @@ footer {
         font-size: 13px;
         padding: 1%;
         line-height: 1.5;
-background-image: url('Imagens/fixphoneee.jpeg');
+background-image: url('Imagens/fixphoneeetest.jpeg');
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
-font-weight: 600
+font-weight: 600;
 
 
             }
@@ -338,7 +337,7 @@ font-weight: 600
         font-size: smaller;
     }
     .video {
-        height: 33%; /*aqui esta a cereja do bolo*/
+        height: 26%; /*aqui esta a cereja do bolo*/
         width: 131%;
         
     }
