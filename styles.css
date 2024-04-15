@@ -311,11 +311,10 @@ footer {
 
     header {
        
-        padding-bottom: 15px; 
-        height: 110px;
-        font-size: smaller;
+        padding-bottom: 0px; 
+        height: 115px;
+        font-size: medium;
 
-       
     }
 
     .sobre{
@@ -343,8 +342,8 @@ font-weight: 600;
         font-size: smaller;
     }
     .video {
-        height: 23%; /*aqui esta a cereja do bolo*/
-        width: 131%;
+        height: 24%; /*aqui esta a cereja do bolo*/
+        width: 130%;
         
     }
 
