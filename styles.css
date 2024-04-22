@@ -206,7 +206,7 @@ footer {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: .6s;
 
 
@@ -229,7 +229,7 @@ footer {
     cursor: pointer;
     margin: 0 5px;
     transition: .5s;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 
 }
@@ -413,7 +413,7 @@ footer {
 .carousel-container{
 height: 450;
 width: 100%;   
-top: 585px
+top: 585px;
 
 
 }
@@ -565,7 +565,7 @@ footer {
 .carousel-container{
 height: 320px;
 width: 100%;  
-top: 58% 
+top: 58%;
 
 
 
