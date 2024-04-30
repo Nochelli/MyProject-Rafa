@@ -32,9 +32,16 @@ text-shadow: 1px 1px 2px rgb(0, 0, 0);
 
 }
 
-.cont {
-
+.cont{
+    align-content: center;
     font-size: smaller;
+    background-image: url(Imagens/funduu.jpeg);
+    height: 400px;
+    border-bottom: 2px solid #333; 
+    border-top: 2px solid #333; 
+    box-shadow: 0px 0px 30px #333;
+
+
 
 }
 
@@ -160,6 +167,7 @@ section {
     margin: none;
     position: flex;
     text-align: center;
+    box-shadow: #333;
     
     
 
@@ -433,6 +441,10 @@ top: 585px;
 
   .cont{
     font-size: small;
+    color: #ffffff;
+    height: 300px;
+    margin-bottom: 40px;
+
 
   }
 
