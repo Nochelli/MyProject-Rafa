@@ -365,7 +365,7 @@ footer {
 /* hidden and show*/
 
 /* Responsive Iphone */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1020px){
 
     header {
        
@@ -506,7 +506,7 @@ top: 585px;
 
 /* Responsivel
 
-/* Responsive Samsung s9 */
+/* Responsive Samsung s9 
 @media screen and (max-width: 360px){
  
 
@@ -543,7 +543,7 @@ font-weight: 700
         font-size: smaller;
     }
     .video {
-        height: 130px; /*aqui esta a cereja do bolo*/
+        height: 130px; /*aqui esta a cereja do bolo
         width: 126%;
       
         
@@ -631,4 +631,5 @@ section {
 
 }
 
+*/
 
