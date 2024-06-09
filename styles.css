@@ -65,7 +65,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fffbfbc0;
+    color: #ffffffbc;
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
@@ -81,10 +81,9 @@ nav ul li a {
 }
 
 .destaque:hover {
-    color: #F05A23;
+    color: #ffffff;
     cursor: pointer; 
-    text-shadow: 5px 5px 20px #F05A23;
-    transform: scale(1.20);
+    transform: scale(1.15);
 
 
 }
