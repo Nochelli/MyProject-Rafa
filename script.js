@@ -124,3 +124,22 @@ if ('IntersectionObserver' in window) {
 
 
 
+    window.onload = function() {
+        var videoPlayer = document.getElementById('video-player');
+    
+        // Verifica o tamanho da tela ao carregar e redimensionar
+        function checkWindowSize() {
+            var mobileSrc = videoPlayer.querySelector('source[data-mobile-src]').getAttribute('data-mobile-src');
+            if (window.innerWidth < 768) { // Se a largura da tela for menor que 768px (tamanho móvel)
+                videoPlayer.src = mobileSrc;
+            } else { // Se a largura da tela for 768px ou maior (tamanho desktop)
+                videoPlayer.src = videoPlayer.querySelector('source[src]').getAttribute('src');
+            }
+        }
+    
+        // Verifica o tamanho da tela ao carregar a página
+        checkWindowSize();
+    
+        // Verifica o tamanho da tela ao redimensionar a janela
+        window.addEventListener('resize', checkWindowSize);
+    };
