@@ -124,33 +124,54 @@ text-shadow: 1px 1px 2px rgb(0, 0, 0);
 
 }
 
-
 /*link do whatsapp CSS */
-.whatsapp-link {
-position: fixed;
-bottom: 20px;
-right: 20px;
-z-index: 1000; 
-}
-.whatsapp-icon {
-width: 70px; 
-height: 70px; 
-background-color: transparent;  
+.btn-social-fix-insta button {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    background-color: transparent;
+    font-size: 50px;
+    border: 0;
+    cursor: pointer;
+    color: #F05A23;
+    z-index: 5;
+
+
 }
 
-/*link do whatsapp CSS */
-/*link do instagram CSS */
-.instagram-link {
-position: fixed;
-bottom: 90px;
-right: 20px;
-z-index: 1000; 
+.btn-social-fix-insta button:hover {
+    transform: scale(1.20);
+    display: inline-block;
+    transition: .5s;
+    text-shadow: 0px 0px 20px #F05A23;
+
+
 }
-.instagram-icon {
-width: 70px; 
-height: 70px; 
+
+
+.btn-social-fix-what button {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    background-color: transparent;
+    font-size: 50px;
+    border: 0;
+    cursor: pointer;
+    color: #F05A23;
+    z-index: 5;
+
+
 }
-/*link do instagram CSS */
+
+.btn-social-fix-what button:hover {
+    transform: scale(1.20);
+    display: inline-block;
+    transition: .5s;
+    text-shadow: 0px 0px 20px #F05A23;
+
+}
+
+
 
 /* Estilos para as seções */
 section {
@@ -439,20 +460,21 @@ width: 100%;
   .sk-ww-google-reviews{margin-top: 0px;
 }
 
-  .whatsapp-icon {
-    width: 50px; 
-    height: 50px; 
+.btn-social-fix-insta button {
 
-    }
+    font-size: 35px;
+    z-index: 5;
+    bottom: 20px;
+    right: 20px;
+}
 
-.instagram-icon {
-    width: 50px; 
-    height: 50px; 
-        }
+.btn-social-fix-what button{
+    font-size: 35px;
+    z-index: 5;
+    bottom: 75px;
+    right: 20px;
 
-        .instagram-link {
-            bottom: 70px;
-        }
+}
 
   section {
     padding: 50px;
