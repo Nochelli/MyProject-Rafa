@@ -124,32 +124,24 @@ if ('IntersectionObserver' in window) {
 
 
 
-    window.onload = function() {
-        var videoPlayer = document.getElementById('video-player');
+    // JavaScript para alternar entre os vídeos com base no tamanho da tela
+    function checkWindowSize() {
+        var desktopVideo = document.getElementById('desktop-video');
+        var mobileVideo = document.getElementById('mobile-video');
 
-        // Função para verificar o tamanho da tela e alternar entre as sources de vídeo
-        function checkWindowSize() {
-            var mobileSrc = videoPlayer.querySelector('source[data-mobile-src]').getAttribute('data-mobile-src');
-            var desktopSrc = videoPlayer.querySelector('source[src]').getAttribute('src');
-
-            if (window.innerWidth < 768) {
-                // Se a largura da tela for menor que 768px (tamanho móvel)
-                if (videoPlayer.src !== mobileSrc) {
-                    videoPlayer.src = mobileSrc; // Define a source móvel
-                    videoPlayer.load(); // Recarrega o vídeo para mudar a source
-                }
-            } else {
-                // Se a largura da tela for 768px ou maior (tamanho desktop)
-                if (videoPlayer.src !== desktopSrc) {
-                    videoPlayer.src = desktopSrc; // Define a source desktop
-                    videoPlayer.load(); // Recarrega o vídeo para mudar a source
-                }
-            }
+        if (window.innerWidth < 769) {
+            // Mostra o vídeo móvel e esconde o vídeo de desktop
+            desktopVideo.style.display = 'none';
+            mobileVideo.style.display = 'block';
+        } else {
+            // Mostra o vídeo de desktop e esconde o vídeo móvel
+            desktopVideo.style.display = 'block';
+            mobileVideo.style.display = 'none';
         }
+    }
 
-        // Verifica o tamanho da tela ao carregar a página
-        checkWindowSize();
+    // Verifica o tamanho da tela ao carregar a página
+    checkWindowSize();
 
-        // Verifica o tamanho da tela ao redimensionar a janela
-        window.addEventListener('resize', checkWindowSize);
-    };
+    // Verifica o tamanho da tela ao redimensionar a janela
+    window.addEventListener('resize', checkWindowSize);
