@@ -126,20 +126,30 @@ if ('IntersectionObserver' in window) {
 
     window.onload = function() {
         var videoPlayer = document.getElementById('video-player');
-    
-        // Verifica o tamanho da tela ao carregar e redimensionar
+
+        // Função para verificar o tamanho da tela e alternar entre as sources de vídeo
         function checkWindowSize() {
             var mobileSrc = videoPlayer.querySelector('source[data-mobile-src]').getAttribute('data-mobile-src');
-            if (window.innerWidth < 768) { // Se a largura da tela for menor que 768px (tamanho móvel)
-                videoPlayer.src = mobileSrc;
-            } else { // Se a largura da tela for 768px ou maior (tamanho desktop)
-                videoPlayer.src = videoPlayer.querySelector('source[src]').getAttribute('src');
+            var desktopSrc = videoPlayer.querySelector('source[src]').getAttribute('src');
+
+            if (window.innerWidth < 768) {
+                // Se a largura da tela for menor que 768px (tamanho móvel)
+                if (videoPlayer.src !== mobileSrc) {
+                    videoPlayer.src = mobileSrc; // Define a source móvel
+                    videoPlayer.load(); // Recarrega o vídeo para mudar a source
+                }
+            } else {
+                // Se a largura da tela for 768px ou maior (tamanho desktop)
+                if (videoPlayer.src !== desktopSrc) {
+                    videoPlayer.src = desktopSrc; // Define a source desktop
+                    videoPlayer.load(); // Recarrega o vídeo para mudar a source
+                }
             }
         }
-    
+
         // Verifica o tamanho da tela ao carregar a página
         checkWindowSize();
-    
+
         // Verifica o tamanho da tela ao redimensionar a janela
         window.addEventListener('resize', checkWindowSize);
     };

@@ -57,19 +57,14 @@ disablePictureInPicture
 loop src="servico.mp4" class="video" > 
 </video> </div>-->
 
-<div >
-    <video id="video-player" autoplay
-    muted playsinline
-    disablePictureInPicture  
-    loop 
-         class="video" src="servico.mp4" type="video/mp4" >
-        <source autoplay
-        muted playsinline
-        disablePictureInPicture  
-        loop data-mobile-src="sercelular.mp4" type="video/mp4">
+<div>
+    <video id="video-player" autoplay muted playsinline disablePictureInPicture loop class="video">
+        <!-- Source para desktop -->
+        <source src="servico.mp4" type="video/mp4">
+        <!-- Source para dispositivos móveis -->
+        <source data-mobile-src="sercelular.mp4" type="video/mp4">
     </video>
 </div>
-
 
  <div class="carousel-container">
         <div class="carousel"> 
