@@ -482,6 +482,15 @@ width: 100%;
 
 }
 
+
+.video {
+    display: block; /* Mostrar o vídeo para dispositivos móveis */
+}
+video:not(.video) {
+    display: none; /* Esconder o vídeo padrão para desktop */
+}
+
+
 .contact {
     height: 50px;
     background-color: #070507;
