@@ -127,6 +127,13 @@ font-family: "Poppins", sans-serif;
 text-shadow: 1px 1px 2px rgb(0, 0, 0);
  font-weight: 600;
 
+
+ font-size: 17px;
+
+ height: 400px;
+ border-bottom: 2px solid #333; 
+ border-top: 2px solid #333; 
+ box-shadow: 0px 0px 30px #333;
 }
 
 /*link do whatsapp CSS */
